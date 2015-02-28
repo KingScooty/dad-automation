@@ -1,18 +1,35 @@
-body { background: #fff; color: #333; }
+body { background: #fff; color: #333; font-family: Helvetica, Arial; line-height: 1.33; }
+
+.frontpage { padding-top: 50px; }
+.frontpage .header, .frontpage .footer { overflow: hidden; position: absolute; background: white; color: #333; padding: 10px 0; width: 100%; }
+
+.backpage .footer { position: absolute; width: 100%; bottom: 0; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+.frontpage, .backpage { position: relative; background-color: #C41FF9; color: #FFF; height: 11.5in; width: 8.5in; }
+.frontpage .header, .backpage .header { top: 0; text-align: right; }
+.frontpage .footer, .backpage .footer { bottom: 0; }
+
+.cover-title { font-size: 32px; }
+
+.cover-logo { display: block; margin: 0 auto; margin-bottom: 70px; }
+
+.cover-image { position: absolute; bottom: 140px; left: 50%; margin-left: -30%; width: 60%; }
+
+.cover-body { text-align: center; }
 
 *, *:before, *:after { box-sizing: border-box; }
 
-img { display: block; width: 85%; margin: 0 auto; }
-
-.page { padding: 10px; }
+.page { overflow: hidden; padding: 10px; }
+.page img { display: block; width: 80%; margin: 0 auto; }
 
 .page-container { height: 100%; overflow: hidden; }
 
 p { padding: 10px; border: 3px solid #ddd; min-height: 100px; }
 
-* { background: transparent !important; color: black !important; text-shadow: none !important; -webkit-filter: none !important; filter: none !important; -ms-filter: none !important; }
-
-/* Black prints faster: h5bp.com/s */
 a, a:visited { text-decoration: underline; }
 
 a[href]:after { content: " (" attr(href) ")"; }
@@ -34,6 +51,6 @@ img { max-width: 100% !important; }
 @page { margin: 0.5cm; }
 p, h2, h3 { orphans: 3; widows: 3; }
 
-h2, h3, .page { page-break-after: avoid; }
+h2, h3, .page, .cover { page-break-after: avoid; }
 
 .page { width: 8.5in; height: 6in; }

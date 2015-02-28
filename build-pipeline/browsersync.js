@@ -4,8 +4,9 @@ var browserSync = require('browser-sync');
 // Static server
 gulp.task('browser-sync', function() {
   browserSync({
+    startPath: "/compiled/",
     server: {
-      baseDir: "./app/"
+      baseDir: "./app"
     }//,
     // files : {
     //   src : ['app/templates/**/*.hbs']
