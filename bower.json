@@ -1,0 +1,16 @@
+{
+  "name": "footballstats",
+  "version": "0.0.0",
+  "authors": [
+    "Scotty Vernon <scott.vernon@gmail.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "jquery.pjax": "https://github.com/falsandtru/jquery-pjax/releases/download/v2.36.0/jquery.pjax.js",
+    "animate-sass": "~0.6.2",
+    "sass-mediaqueries": "~1.4.0",
+    "mathsass": "~0.9.5"
+  }
+}

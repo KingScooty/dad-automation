@@ -1,0 +1,11 @@
+{{#group_by_date fixtures.matches }}
+  {{#each this}}
+    <h1 class="match-date">Date: {{ @key }}</h1>
+    <table>
+    {{#each this}}
+      {{> fixture this}}
+    {{/each}}
+    </table>
+    <hr>
+  {{/each}}
+{{/group_by_date}}

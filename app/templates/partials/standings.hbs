@@ -1,0 +1,24 @@
+<table>
+  <thead>
+    <tr>
+      <td>Pos</td>
+      <td>Team</td>
+      <td>P</td>
+      <td>GD</td>
+      <td>Pts</td>
+      <td>Form</td>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each standings.teams }}
+    <tr>
+      <td>{{this.stand_position}}</td>
+      <td>{{this.stand_team_name}}</td>
+      <td>{{this.stand_overall_gp}}</td>
+      <td>{{this.stand_gd}}</td>
+      <td>{{this.stand_points}}</td>
+      <td>{{this.stand_recent_form}}</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,4 @@
+app/compiled
+npm-debug.log
+node_modules
+*.pdf
