@@ -2,3 +2,5 @@ app/compiled
 npm-debug.log
 node_modules
 *.pdf
+app/data/*.yml
+app/images/drop-script-images-here/*.jpg
